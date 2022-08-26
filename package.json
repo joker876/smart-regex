@@ -1,0 +1,34 @@
+{
+    "name": "take-chance",
+    "version": "4.2.0",
+    "description": "A TypeScript library with various RegExp validations, matchings, and replacings.",
+    "main": "dist/index.min.js",
+    "files": [
+        "dist/*"
+    ],
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "nodemon dist/index.min.js",
+        "tstest": "ts-node-dev --respawn src/index.ts",
+        "build": "rmdir /s /Q dist & tsc && terser dist/index.js --output dist/index.min.js --config_file terserconfig.json --comments /^\\*\\n/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/joker876/take-chance.git"
+    },
+    "bugs": {
+        "url": "https://github.com/joker876/take-chance/issues"
+    },
+    "homepage": "https://github.com/joker876/take-chance#readme",
+    "keywords": [
+        "random",
+        "rng"
+    ],
+    "author": "joker876",
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.15",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.6.3"
+    }
+}
