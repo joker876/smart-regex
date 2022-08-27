@@ -1,7 +1,7 @@
 {
     "name": "take-chance",
-    "version": "4.2.0",
-    "description": "A TypeScript library with various RegExp validations, matchings, and replacings.",
+    "version": "1.0.0",
+    "description": "[TS] Find & replace, and move the caret!",
     "main": "dist/index.min.js",
     "files": [
         "dist/*"
