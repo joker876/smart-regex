@@ -1,5 +1,5 @@
 {
-    "name": "take-chance",
+    "name": "smart-regex",
     "version": "1.0.0",
     "description": "[TS] Find & replace, and move the caret!",
     "main": "dist/index.min.js",
@@ -14,15 +14,20 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/joker876/take-chance.git"
+        "url": "https://github.com/joker876/smart-regex.git"
     },
     "bugs": {
-        "url": "https://github.com/joker876/take-chance/issues"
+        "url": "https://github.com/joker876/smart-regex/issues"
     },
-    "homepage": "https://github.com/joker876/take-chance#readme",
+    "homepage": "https://github.com/joker876/smart-regex#readme",
     "keywords": [
-        "random",
-        "rng"
+        "smart",
+        "regex",
+        "regexp",
+        "find",
+        "replace",
+        "caret",
+        "cursor"
     ],
     "author": "joker876",
     "license": "MIT",
